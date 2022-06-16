@@ -17,6 +17,7 @@
 		822DCACA2859E8800051F4A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822DCAA02859E87D0051F4A1 /* ContentView.swift */; };
 		822DCACB2859E8800051F4A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822DCAA12859E8800051F4A1 /* Assets.xcassets */; };
 		822DCACC2859E8800051F4A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822DCAA12859E8800051F4A1 /* Assets.xcassets */; };
+		822DCB9A285AD69E0051F4A1 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822DCB99285AD69E0051F4A1 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		822DCABF2859E8800051F4A1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		822DCAC32859E8800051F4A1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		822DCAC52859E8800051F4A1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		822DCB99285AD69E0051F4A1 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		822DCA9E2859E87D0051F4A1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				822DCB99285AD69E0051F4A1 /* Storyboard.storyboard */,
 				822DCA9F2859E87D0051F4A1 /* github_xcodeApp.swift */,
 				822DCAA02859E87D0051F4A1 /* ContentView.swift */,
 				822DCAA12859E8800051F4A1 /* Assets.xcassets */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				822DCACB2859E8800051F4A1 /* Assets.xcassets in Resources */,
+				822DCB9A285AD69E0051F4A1 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
